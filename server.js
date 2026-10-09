@@ -1,4 +1,4 @@
-import express from "express";
+ import express from "express";
 import { connectDB } from "./db.js";
 import { createTable } from "./dbInit.js";
 import router from "./src/route.js";
