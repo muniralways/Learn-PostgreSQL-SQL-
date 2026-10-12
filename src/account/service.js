@@ -44,7 +44,7 @@ export const transferFunds = async (senderId, receiverId, amount) => {
 
     const client = await pool.connect();
 
-    try { 
+    try {
         await client.query('BEGIN');
 
         const locked = await client.query(
